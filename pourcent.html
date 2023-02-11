@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Count</title>
+        <link href="pourcent.css" rel="stylesheet">
+</head>
+ <body>
+      <h1>Calcul with pourcent</h1>
+    <div class="container">
+      <div class="pourcent1">
+        <p>Pourcent Calculator</p>
+        <div>
+          <div class="calcInfo">
+            <input type="number"  id="firstNumber">
+            <p class="text">On a total of</p>
+            <input type="number"  id="secondNumber">
+         </div>
+         <button onclick="calc ()">Calculate</button>
+         <p id="result"></p>
+       </div>
+      </div>
+      
+      <div class="pourcent2">
+        <p>Find a number with a pourcent</p>
+        <div>
+          <div class="calcInfo2">
+            <input type="number"  id="firstNumber1">
+            <p class="text">% on a total of</p>
+            <input type="number"  id="secondNumber1">
+         </div>
+         <button onclick="calcc ()">Calculate</button>
+         <p id="result2"></p>
+       </div>
+      </div>
+
+      <div class="pourcent3">
+        <p>Increase or Decrease calculator</p>
+          <div class="calcInfo3">
+            <input type="number"  id="firstNumber2">
+            <select class="select" id="upOrDown"><option value="Up">Up</option><option value="Down">Down</option></select>
+            <input type="number"  id="secondNumber2">
+        </div>
+        <button onclick="calccc ()">Calculate</button>
+        <p id="result3"></p>
+      </div>
+    </div>
+  <script src="pourcent.js"></script>
+ </body>
